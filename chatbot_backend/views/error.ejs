@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error</title>
+</head>
+<body>
+    <h1><%= message %></h1>
+    <h2>Status: <%= error.status %></h2>
+    <% if (error.stack) { %>
+    <pre><%= error.stack %></pre>
+    <% } %>
+</body>
+</html>
+

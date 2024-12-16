@@ -1,0 +1,19 @@
+Collecting opentelemetry-exporter-otlp-proto-grpc
+  Using cached opentelemetry_exporter_otlp_proto_grpc-1.29.0-py3-none-any.whl (18 kB)
+Collecting opentelemetry-proto==1.29.0
+  Using cached opentelemetry_proto-1.29.0-py3-none-any.whl (55 kB)
+Requirement already satisfied: opentelemetry-sdk~=1.29.0 in c:\users\admin\anaconda3\lib\site-packages (from opentelemetry-exporter-otlp-proto-grpc) (1.29.0)
+Collecting opentelemetry-exporter-otlp-proto-common==1.29.0
+  Using cached opentelemetry_exporter_otlp_proto_common-1.29.0-py3-none-any.whl (18 kB)
+Requirement already satisfied: deprecated>=1.2.6 in c:\users\admin\anaconda3\lib\site-packages (from opentelemetry-exporter-otlp-proto-grpc) (1.2.15)
+Requirement already satisfied: opentelemetry-api~=1.15 in c:\users\admin\anaconda3\lib\site-packages (from opentelemetry-exporter-otlp-proto-grpc) (1.29.0)
+Requirement already satisfied: googleapis-common-protos~=1.52 in c:\users\admin\anaconda3\lib\site-packages (from opentelemetry-exporter-otlp-proto-grpc) (1.53.0)
+Requirement already satisfied: grpcio<2.0.0,>=1.63.2 in c:\users\admin\anaconda3\lib\site-packages (from opentelemetry-exporter-otlp-proto-grpc) (1.68.1)
+Requirement already satisfied: protobuf<6.0,>=5.0 in c:\users\admin\anaconda3\lib\site-packages (from opentelemetry-proto==1.29.0->opentelemetry-exporter-otlp-proto-grpc) (5.29.1)
+Requirement already satisfied: wrapt<2,>=1.10 in c:\users\admin\anaconda3\lib\site-packages (from deprecated>=1.2.6->opentelemetry-exporter-otlp-proto-grpc) (1.12.1)
+Requirement already satisfied: importlib-metadata<=8.5.0,>=6.0 in c:\users\admin\anaconda3\lib\site-packages (from opentelemetry-api~=1.15->opentelemetry-exporter-otlp-proto-grpc) (8.5.0)
+Requirement already satisfied: zipp>=3.20 in c:\users\admin\anaconda3\lib\site-packages (from importlib-metadata<=8.5.0,>=6.0->opentelemetry-api~=1.15->opentelemetry-exporter-otlp-proto-grpc) (3.21.0)
+Requirement already satisfied: typing-extensions>=3.7.4 in c:\users\admin\anaconda3\lib\site-packages (from opentelemetry-sdk~=1.29.0->opentelemetry-exporter-otlp-proto-grpc) (4.12.2)
+Requirement already satisfied: opentelemetry-semantic-conventions==0.50b0 in c:\users\admin\anaconda3\lib\site-packages (from opentelemetry-sdk~=1.29.0->opentelemetry-exporter-otlp-proto-grpc) (0.50b0)
+Installing collected packages: opentelemetry-proto, opentelemetry-exporter-otlp-proto-common, opentelemetry-exporter-otlp-proto-grpc
+Successfully installed opentelemetry-exporter-otlp-proto-common-1.29.0 opentelemetry-exporter-otlp-proto-grpc-1.29.0 opentelemetry-proto-1.29.0
