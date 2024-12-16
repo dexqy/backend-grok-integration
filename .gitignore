@@ -1,1 +1,13 @@
-"chatbot_backend/chatbot_env/" 
+# Ignore node_modules folder
+node_modules/
+
+# Ignore Python virtual environment
+chatbot_backend/chatbot_env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+# Ignore  the myenv 
+myenv/
+
+
